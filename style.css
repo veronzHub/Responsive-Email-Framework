@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* start Outlook margin fix */
+table {
+	border-collapse:collapse;
+	mso-table-lspace:0pt;
+	mso-table-rspace:0pt;
+	padding:0;
+}
+table td {
+	border-collapse: collapse;
+	mso-table-lspace:0pt;
+	mso-table-rspace:0pt;
+	padding:0;
+}
+/* end of Outlook margin fix */
+@media only screen and (max-width: 480px) {
+img { height: auto; width: 100%; }
+*[class=container] { width: 320px; }
+*[class=hidden] { display:none; }
+.stack { width: 320px!important;float:left; }
+.grid-1{ width: 320px; }
+.grid-2{ width: 160px; }
+.grid-4{ width: 80px; }
+.grid-five{ width: 64px; }
+.grid-eight{ width: 40px; }
+}
