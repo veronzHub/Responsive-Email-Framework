@@ -1,8 +1,8 @@
-@columnWidth: 30px;
+@columnWidth: 60px;
 @gutter: 5px;
  
-@allColumns: @columnWidth * 8;
-@allGutters: (@gutter * 8) * 2;
+@allColumns: @columnWidth * 9;
+@allGutters: (@gutter * 9) * 2;
 @totalWidth: @allColumns + @allGutters;
 
 .grid_1 { width: @columnWidth; }
@@ -13,6 +13,7 @@
 .grid_6 { width: (@columnWidth * 6) + (@gutter * 10); }
 .grid_7 { width: (@columnWidth * 7) + (@gutter * 12); }
 .grid_8 { width: (@columnWidth * 8) + (@gutter * 14); }
+.grid_9 { width: (@columnWidth * 9) + (@gutter * 16); }
 
 .column {
     margin: 0 @gutter;

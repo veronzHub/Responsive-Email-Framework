@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title></title>
+<title>640</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style type="text/css">
-/* start Outlook margin fix */ 
-body { -webkit-text-size-adjust: none; }
+/* START OF RESETS */ 
+* { -webkit-text-size-adjust: none; }
 table {
 	border-collapse:collapse;
 	mso-table-lspace:0pt;
@@ -18,8 +18,10 @@ table td {
 	mso-table-rspace:0pt;
 	padding:0;
 }
-/* end of Outlook margin fix */
-/*****
+/* END OF RESETS */ 
+
+/* START OF GRID */ 
+/*****************
 .grid_1 { width: 70px; }
 .grid_2 { width: 150px; }
 .grid_3 { width: 230px; }
@@ -28,8 +30,8 @@ table td {
 .grid_6 { width: 470px; }
 .grid_7 { width: 550px; }
 .grid_8 { width: 630px; }
+*******************/
 
-*******/
 *[class=container] {
 	width: 640px;
 	margin: 0 auto;
@@ -42,9 +44,6 @@ table td {
 *[class=grid-1-block] {
 	width: 70px;
 	padding: 0 5px;
-	text-align: center;
-	font: 16px Arial, Helvetica, sans-serif;
-	color:#333333;
 }
 *[class=grid-2] {
 	width: 150px;
@@ -74,9 +73,9 @@ table td {
 	width: 630px;
 	padding: 0 5px;
 }
-@media screen and (max-width: 470px) {
-*[class=container] { width: 320px; }
-*[class=hidden] { display:none; }
+@media only screen and (max-width: 480px) {
+*[class=container] { width: 320px!important; }
+*[class=hidden] { display:none!important; }
 /*****
 .grid_1 { width: 70px; }
 .grid_2 { width: 150px; }
@@ -103,61 +102,58 @@ table td {
 
 /** GRID 1 **/
 *[class=grid-1] {
-	width: 70px;
-	float:left;
-	padding: 5px;
+	width: 70px!important;
+	float:left!important;
+	padding: 5px!important;
 }
-*[class=grid-1] img { width: 100%; }
+*[class=grid-1] img { width: 100%!important; }
 *[class=grid-1-block] {
-	width: 310px;
-	display:block;
+	width: 310px!important;
+	display:block!important;
 }
 /** GRID 2 **/
 *[class=grid-2] {
-	width: 150px;
-	float:left;
-	padding: 5px;
+	width: 150px!important;
+	float:left!important;
+	padding: 5px!important;
 }
-*[class=grid-2] img { width: 100%; }
+*[class=grid-2] img { width: 100%!important; }
 /** GRID 3 **/
 *[class=grid-3] {
-	width: 310px;
-	display:block;
-	float:left;
-	padding: 5px;
+	width: 310px!important;
+	display:block!important;
+	padding: 5px!important;
 }
-*[class=grid-3] img { margin: 0 auto; }
+*[class=grid-3] img { margin: 0 auto!important; }
 /** GRID 4 **/
 *[class=grid-4] {
-	width: 310px;
-	display:block;
-	float:left;
+	width: 310px!important;
+	float:left!important;
 }
-*[class=grid-4] img { width: 100%; }
+*[class=grid-4] img { width: 100%!important; }
 /** GRID 5 **/
 *[class=grid-5] {
-	width: 310px;
-	display:block;
+	width: 310px!important;
+	display:block!important;
 }
-*[class=grid-5] img { width: 100%; }
+*[class=grid-5] img { width: 100%!important; }
 *[class=grid-6] {
-	width: 310px;
-	display:block;
+	width: 310px!important;
+	display:block!important;
 }
-*[class=grid-6] img { width: 100%; }
+*[class=grid-6] img { width: 100%!important; }
 *[class=grid-7] {
-	width: 310px;
-	display:block;
+	width: 310px!important;
+	display:block!important;
 }
-*[class=grid-7] img { width: 100%; }
+*[class=grid-7] img { width: 100%!important; }
 *[class=grid-8] {
-	width: 310px;
-	display:block;
+	width: 310px!important;
+	display:block!important;
 }
-*[class=grid-8] img { width: 100%; }
+*[class=grid-8] img { width: 100%!important; }
 }
 </style>
-
 </head>
 
 <body>
@@ -264,16 +260,16 @@ table td {
     </tr>
 </table>
 <!-- 8 digit max -->
-<table border="0" cellpadding="0" cellspacing="0" class="container">
+<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-1-block">Women</td>
-        <td class="grid-1-block">Men</td>
-        <td class="grid-1-block">Kids</td>
-        <td class="grid-1-block">Designer</td>
-        <td class="grid-1-block">Gifts</td>
-        <td class="grid-1-block">Bridal</td>
-        <td class="grid-1-block">Sale</td>
-        <td class="grid-1-block">Beauty</td>
+        <td class="grid-1-block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Women</td>
+        <td class="grid-1-block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Men</td>
+        <td class="grid-1-block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Kids</td>
+        <td class="grid-1-block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Designer</td>
+        <td class="grid-1-block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Gifts</td>
+        <td class="grid-1-block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Bridal</td>
+        <td class="grid-1-block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Sale</td>
+        <td class="grid-1-block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Beauty</td>
     </tr>
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
@@ -281,7 +277,7 @@ table td {
         <td class="grid-8"><img src="http://placehold.it/630x10/E3CDA4/E3CDA4" alt="" border="0" style="display:block" /></td>
     </tr>
 </table>
-<table border="0" cellpadding="0" cellspacing="0" class="container">
+<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
         <td class="grid-4" style="font: 16px Arial, Helvetica, sans-serif; color:#333;"><span style="font-weight: bold">HEADING</span><br />
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam vulputate scelerisque. Praesent sodales orci quis eros accumsan tincidunt.</td>

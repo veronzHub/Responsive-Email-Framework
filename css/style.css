@@ -1,26 +1,29 @@
 .grid_1 {
-  width: 30px;
+  width: 60px;
 }
 .grid_2 {
-  width: 70px;
+  width: 130px;
 }
 .grid_3 {
-  width: 110px;
+  width: 200px;
 }
 .grid_4 {
-  width: 150px;
-}
-.grid_5 {
-  width: 190px;
-}
-.grid_6 {
-  width: 230px;
-}
-.grid_7 {
   width: 270px;
 }
+.grid_5 {
+  width: 340px;
+}
+.grid_6 {
+  width: 410px;
+}
+.grid_7 {
+  width: 480px;
+}
 .grid_8 {
-  width: 310px;
+  width: 550px;
+}
+.grid_9 {
+  width: 620px;
 }
 .column {
   margin: 0 5px;
@@ -29,7 +32,7 @@
   display: inline;
 }
 .row {
-  width: 320px;
+  width: 630px;
   margin: 0 auto;
   overflow: hidden;
 }
