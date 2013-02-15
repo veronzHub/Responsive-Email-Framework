@@ -1,3 +1,36 @@
+@columnWidth: 70px;
+@gutter: 5px;
+ 
+@allColumns: @columnWidth * 8;
+@allGutters: (@gutter * 8) * 2;
+@totalWidth: @allColumns + @allGutters;
+
+.grid_1 { width: @columnWidth; }
+.grid_2 { width: (@columnWidth * 2) + (@gutter * 2); }
+.grid_3 { width: (@columnWidth * 3) + (@gutter * 4); }
+.grid_4 { width: (@columnWidth * 4) + (@gutter * 6); }
+.grid_5 { width: (@columnWidth * 5) + (@gutter * 8); }
+.grid_6 { width: (@columnWidth * 6) + (@gutter * 10); }
+.grid_7 { width: (@columnWidth * 7) + (@gutter * 12); }
+.grid_8 { width: (@columnWidth * 8) + (@gutter * 14); }
+
+.column {
+    margin: 0 @gutter;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.row {
+    width: @totalWidth;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.row .row {
+    margin: 0 (@gutter * -1);
+    width: auto;
+    display: inline-block;
+}
+
 /* start Outlook margin fix */
 table {
 	border-collapse:collapse;
