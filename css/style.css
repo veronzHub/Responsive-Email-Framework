@@ -1,26 +1,26 @@
 .grid_1 {
-  width: 70px;
+  width: 30px;
 }
 .grid_2 {
-  width: 150px;
+  width: 70px;
 }
 .grid_3 {
-  width: 230px;
+  width: 110px;
 }
 .grid_4 {
-  width: 310px;
+  width: 150px;
 }
 .grid_5 {
-  width: 390px;
+  width: 190px;
 }
 .grid_6 {
-  width: 470px;
+  width: 230px;
 }
 .grid_7 {
-  width: 550px;
+  width: 270px;
 }
 .grid_8 {
-  width: 630px;
+  width: 310px;
 }
 .column {
   margin: 0 5px;
@@ -29,7 +29,7 @@
   display: inline;
 }
 .row {
-  width: 640px;
+  width: 320px;
   margin: 0 auto;
   overflow: hidden;
 }
