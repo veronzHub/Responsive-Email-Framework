@@ -10,4 +10,4 @@ Tools used to develop this:
 	http://beaker.mailchimp.com/inline-css
 
 	Email testing:
-	http://www.emailonacid.com
+	http://www.emailonacid.com/
