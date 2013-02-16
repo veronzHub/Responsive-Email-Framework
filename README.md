@@ -8,11 +8,11 @@ Code the email using tables and apply the grid classes to the "td" tags the same
 
 ## Tools Used ##
 
-*CSS inline tool:[Mail Chimp] (http://beaker.mailchimp.com/inline-css)
+* CSS inline tool:[Mail Chimp] (http://beaker.mailchimp.com/inline-css)
 	
-*Email testing:[Email on Acid](http://www.emailonacid.com/)
+* Email testing:[Email on Acid](http://www.emailonacid.com/)
 	
-*Calculations:[Instacalc](http://instacalc.com/9710)
+* Calculations:[Instacalc](http://instacalc.com/9710)
 
-*Image placeholders:[Placehold.it](http://placehold.it)
+* Image placeholders:[Placehold.it](http://placehold.it)
 
