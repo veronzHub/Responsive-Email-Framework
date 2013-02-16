@@ -2,20 +2,22 @@
 
 Instructions:
 
-Code the email using tables and apply the grid classes to the "td" tags the same as you would with the 960 Grid System. After the email is coded, temporarily remove the GLOBAL CSS styling. Run the remaining code through the CSS Inline Tool provided by Mail Chimp (link below). After the CSS is made inline, add back the GLOBAL CSS styling.
+Code the email using tables and apply the grid classes to the "td" tags the same as you would with the [960 Grid System](http://960.gs/). After the email is coded, temporarily remove the GLOBAL CSS styling. Run the remaining code through the CSS Inline Tool provided by Mail Chimp (link below). After the CSS is made inline, add back the GLOBAL CSS styling.
 	
 
 Tools Used:
 
 	CSS inline tool:
-	http://beaker.mailchimp.com/inline-css
+	[Mail Chimp](http://beaker.mailchimp.com/inline-css)
+	
 
 	Email testing:
-	http://www.emailonacid.com/
+	[Email on Acid](http://www.emailonacid.com/)
+	
 
 	Calculations:
-	http://instacalc.com/9710
+	[Instacalc](http://instacalc.com/9710)
 
 	Image placeholders:
-	http://placehold.it
+	[Placehold.it](http://placehold.it)
 
