@@ -1,5 +1,5 @@
 ## Overview ##
-This is a responsive CSS framework for emails ~ 640px wide with 8 grids.
+This is a responsive CSS framework for emails ~ 640px wide with 16 grids.
 
 ## Instructions ##
 
