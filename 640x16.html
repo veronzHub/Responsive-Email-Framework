@@ -5,12 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style type="text/css">
 /* START OF GLOBAL RESETS */ 
-* { -webkit-text-size-adjust: none; }
-table {
-	border-collapse: collapse;
-	mso-table-lspace: 0pt;
-	mso-table-rspace: 0pt;
-	padding: 0;
+body {
+	width:100% !important;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	margin:0;
+	padding:0;
+}
+img {
+	outline:none;
+	text-decoration:none;
+	-ms-interpolation-mode: bicubic;
 }
 table td {
 	border-collapse: collapse;
@@ -46,6 +51,7 @@ img {
 .container {
 	width: 640px;
 	margin: 0 auto;
+	padding:0;
 	background-color: #E3CDA4;
 }
 .grid-1 { width: 30px; }
@@ -106,30 +112,29 @@ img {
 .grid-14 { width: 270px; }
 .grid-15 { width: 290px; }
 .grid-16 { width: 310px; }
-
 *******************/
 
 *[class].container { width: 320px!important; }
-*[class].grid-1 {
-	width: 30px!important;
-	float: left!important;
-	padding: 5px!important;
-}
-*[class].grid-2 {
-	width: 70px!important;
-	float: left!important;
-	padding: 5px!important;
-}
-*[class].grid-3 {
-	width: 110px!important;
-	float: left!important;
-	padding: 5px!important;
-}
-*[class].grid-4 {
-	width: 150px!important;
-	float: left!important;
-	padding: 5px!important;
-}
+*[class].grid-1 { width: 30px!important; }
+*[class].grid-2 { width: 70px!important; }
+*[class].grid-3 { width: 110px!important; }
+*[class].grid-4 { width: 150px!important; }
+*[class].grid-5,
+*[class].grid-6,
+*[class].grid-7,
+*[class].grid-8,
+*[class].grid-9,
+*[class].grid-10,
+*[class].grid-11,
+*[class].grid-12,
+*[class].grid-13,
+*[class].grid-14,
+*[class].grid-15,
+*[class].grid-16 { width: 310px!important; }
+*[class].grid-1,
+*[class].grid-2,
+*[class].grid-3,
+*[class].grid-4,
 *[class].grid-5,
 *[class].grid-6,
 *[class].grid-7,
@@ -142,15 +147,13 @@ img {
 *[class].grid-14,
 *[class].grid-15,
 *[class].grid-16 {
-	width: 310px!important;
-	display: block!important;
+	float: left!important;
 	padding: 5px!important;
 }
 *[class].grid-1 img,
 *[class].grid-2 img,
 *[class].grid-3 img,
 *[class].grid-4 img,
-*[class].grid-5 img,
 *[class].grid-7 img,
 *[class].grid-8 img,
 *[class].grid-9 img,
@@ -161,6 +164,10 @@ img {
 *[class].grid-14 img,
 *[class].grid-15 img,
 *[class].grid-16 img { width: 100%!important; }
+*[class].grid-5 img {
+	width: 190px!important;
+	margin: 0 auto
+}
 *[class].grid-6 img {
 	width: 230px!important;
 	margin: 0 auto
@@ -173,8 +180,8 @@ img {
 	padding: 5px!important;
 }
 *[class].block img {
-		width: auto!important;
-		margin: 0 auto!important;
+	width: auto!important;
+	margin: 0 auto!important;
 }
 *[class].hidden { display: none!important; }
 }
@@ -204,25 +211,31 @@ img {
         <td class="grid-16 hidden"><img src="http://placehold.it/630x10/E3CDA4/E3CDA4" alt="" /></td>
     </tr>
 </table>
-<!-- <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
+<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-2"><img src="http://placehold.it/150x50/2F343B/FFFFFF" alt="" /></td>
-        <td class="grid-4"><img src="http://placehold.it/310x50/3F454B/FFFFFF" alt="" /></td>
-        <td class="grid-2"><img src="http://placehold.it/150x50/2F343B/FFFFFF" alt="" /></td>
+        <td class="grid-5"><img src="http://placehold.it/190x50/2F343B/FFFFFF" alt="" /></td>
+        <td class="grid-6"><img src="http://placehold.it/230x50/3F454B/FFFFFF" alt="" /></td>
+        <td class="grid-5"><img src="http://placehold.it/190x50/2F343B/FFFFFF" alt="" /></td>
     </tr>
-</table> --> 
+</table>
+<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
+    <tr>
+        <td class="grid-16 hidden"><img src="http://placehold.it/630x10/E3CDA4/E3CDA4" alt="" /></td>
+    </tr>
+</table>
 <!-- <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
         <td class="grid-6"><img src="http://placehold.it/470x50/703030/FFFFFF" alt="" /></td>
         <td class="grid-2"><img src="http://placehold.it/150x50/814141/FFFFFF" alt="" /></td>
     </tr>
 </table> -->
+
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-4 block"><img src="http://placehold.it/150x100/c77966/FFFFFF" alt="" /></td>
-        <td class="grid-4 block"><img src="http://placehold.it/150x100/c88977/FFFFFF" alt="" /></td>
-        <td class="grid-4 block"><img src="http://placehold.it/150x100/c77966/FFFFFF" alt="" /></td>
-        <td class="grid-4 block"><img src="http://placehold.it/150x100/c88977/FFFFFF" alt="" /></td>
+        <td class="grid-4"><img src="http://placehold.it/150x100/c77966/FFFFFF" alt="" /></td>
+        <td class="grid-4"><img src="http://placehold.it/150x100/c88977/FFFFFF" alt="" /></td>
+        <td class="grid-4"><img src="http://placehold.it/150x100/c77966/FFFFFF" alt="" /></td>
+        <td class="grid-4"><img src="http://placehold.it/150x100/c88977/FFFFFF" alt="" /></td>
     </tr>
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
@@ -285,7 +298,9 @@ img {
         <td class="grid-16 hidden"><img src="http://placehold.it/630x10/E3CDA4/E3CDA4" alt="" /></td>
     </tr>
 </table>
+
 <!-- 8 digit max -->
+
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
         <td class="grid-2 block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Women</td>
