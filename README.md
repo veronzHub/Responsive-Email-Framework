@@ -40,6 +40,7 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
 ####Mobile Email Clients
 * Android 2.3, 4
 * iPhone 4S (iOS 5), 4S(iOS 6)
+* iPad *
 * Kindle Fire 2.3
 
 ## Tools 
