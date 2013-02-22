@@ -19,6 +19,6 @@ Code the email using tables and apply the grid classes to the "td" tags the same
 
 ## Resources ##
 
-* CSS Resets: [HTML Email Boilerplate] (http://htmlemailboilerplate.com/)
+* CSS resets: [HTML Email Boilerplate] (http://htmlemailboilerplate.com/)
 	
-* CSS Support in Email: [Campaign Monitor](http://www.campaignmonitor.com/css/)
+* CSS support in email: [Campaign Monitor](http://www.campaignmonitor.com/css/)
