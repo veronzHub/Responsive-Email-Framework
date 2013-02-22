@@ -9,19 +9,19 @@ This is a responsive CSS framework for emails.
 Code the email using tables and apply the desired grid class to the "td" tags the same as you would with the [960 Grid System](http://960.gs/). Do not add dimensions to the HTML, the CSS will handle that.
 
 	<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
-    <tr>
-        <td class="grid-4"><img src="http://placehold.it/150x100/c77966/FFFFFF" alt="" /></td>
-        <td class="grid-4"><img src="http://placehold.it/150x100/c88977/FFFFFF" alt="" /></td>
-        <td class="grid-4"><img src="http://placehold.it/150x100/c77966/FFFFFF" alt="" /></td>
-        <td class="grid-4"><img src="http://placehold.it/150x100/c88977/FFFFFF" alt="" /></td>
-    </tr>
+        <tr>
+            <td class="grid-4"><img src="http://placehold.it/150x100/c77966/FFFFFF" alt="" /></td>
+            <td class="grid-4"><img src="http://placehold.it/150x100/c88977/FFFFFF" alt="" /></td>
+            <td class="grid-4"><img src="http://placehold.it/150x100/c77966/FFFFFF" alt="" /></td>
+            <td class="grid-4"><img src="http://placehold.it/150x100/c88977/FFFFFF" alt="" /></td>
+        </tr>
 	</table>
 
 ## Instructions 
 
 After the email is coded, temporarily remove the GLOBAL CSS styling (this section is commented in the CSS). Run the remaining code through this  [CSS Inline Tool](http://beaker.mailchimp.com/inline-css). After the CSS is made inline, add the GLOBAL CSS styling back to the head, and remove the INLINE STYLING CSS(this section is commented in the CSS).
 
-## Support 	
+## Email Client Support 	
 
 #### Standard Email Clients
 * AOL
