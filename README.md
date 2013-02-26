@@ -84,5 +84,4 @@ Run the remaining code through this [CSS Inline Tool](http://beaker.mailchimp.co
 
 * [iPad](http://www.campaignmonitor.com/blog/post/3585/iphone-fail-the-trouble-with-table-borders-and-html-email)
 * Outlook.com in IE9
-* Android Gmail application
 * Blackberry
