@@ -41,6 +41,19 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
         mso-table-rspace: 0pt;
         padding: 0;
     }
+    .yshortcuts,
+    .yshortcuts a,
+    .yshortcuts a:link,
+    .yshortcuts a:visited,
+    .yshortcuts a:hover,
+    .yshortcuts a span {
+        color: #000;
+        text-decoration: none !important;
+        border-bottom: none !important;
+        background: none !important;
+    }
+    .ReadMsgBody { width: 100%; }
+    .ExternalClass { width: 100%; }
     /* END OF GLOBAL RESETS */
 
 Run the remaining code through this [CSS Inline Tool](http://beaker.mailchimp.com/inline-css). After the CSS is made inline, add the GLOBAL CSS styling back to the head, and remove the INLINE STYLING CSS(this section is commented in the CSS).
