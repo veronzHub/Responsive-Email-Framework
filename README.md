@@ -10,16 +10,40 @@ Code the email using tables and apply the desired grid class to the "td" tags th
 
 	<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
         <tr>
-            <td class="grid-4"><img src="http://placehold.it/150x100/c77966/FFFFFF" alt="" /></td>
-            <td class="grid-4"><img src="http://placehold.it/150x100/c88977/FFFFFF" alt="" /></td>
-            <td class="grid-4"><img src="http://placehold.it/150x100/c77966/FFFFFF" alt="" /></td>
-            <td class="grid-4"><img src="http://placehold.it/150x100/c88977/FFFFFF" alt="" /></td>
+            <td class="grid-4">content content content</td>
+            <td class="grid-4">content content content</td>
+            <td class="grid-4">content content content</td>
+            <td class="grid-4">content content content</td>
         </tr>
 	</table>
 
 ## Instructions 
 
-After the email is coded, temporarily remove the GLOBAL CSS styling (this section is commented in the CSS). Run the remaining code through this  [CSS Inline Tool](http://beaker.mailchimp.com/inline-css). After the CSS is made inline, add the GLOBAL CSS styling back to the head, and remove the INLINE STYLING CSS(this section is commented in the CSS).
+After the email is coded, temporarily remove the GLOBAL CSS styling (this section is commented in the CSS). 
+
+    /* START OF GLOBAL RESETS */ 
+    body {
+        width:100% !important;
+        -webkit-text-size-adjust:100%;
+        -ms-text-size-adjust:100%;
+        margin:0;
+        padding:0;
+    }
+    img {
+        outline:none;
+        text-decoration:none;
+        -ms-interpolation-mode: bicubic;
+    }
+    table { border-collapse: collapse; }
+    table td {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        padding: 0;
+    }
+    /* END OF GLOBAL RESETS */
+
+Run the remaining code through this [CSS Inline Tool](http://beaker.mailchimp.com/inline-css). After the CSS is made inline, add the GLOBAL CSS styling back to the head, and remove the INLINE STYLING CSS(this section is commented in the CSS).
 
 ## Email Client Support 	
 
@@ -46,23 +70,19 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
 ## Tools 
 
 * CSS Inline Tool: [Mail Chimp] (http://beaker.mailchimp.com/inline-css)
-	
 * Email testing: [Email on Acid](http://www.emailonacid.com/)
-	
 * Calculations: [Instacalc](http://instacalc.com/9710)
-
 * Image placeholders: [Placehold.it](http://placehold.it)
 
 
 ## Resources 
 
 * CSS resets: [HTML Email Boilerplate] (http://htmlemailboilerplate.com/)
-	
 * CSS support in email: [Campaign Monitor](http://www.campaignmonitor.com/css/)
 
 ## Bugs 
 
 * [iPad](http://www.campaignmonitor.com/blog/post/3585/iphone-fail-the-trouble-with-table-borders-and-html-email)
-* Outlook.com in IE 9
+* Outlook.com in IE9
 * Android Gmail application
 * Blackberry
