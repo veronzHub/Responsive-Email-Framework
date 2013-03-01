@@ -39,7 +39,7 @@ table td {
 .ExternalClass { width: 100%; }
 /* END OF GLOBAL RESETS */
 
-/* START INLINE STYLING */ 
+/* START OF INLINE STYLING */ 
 /*****************
 .grid-1 { width: 80px; }
 .grid-2 { width: 160px; }
@@ -57,7 +57,6 @@ img {
 .container {
 	width: 640px;
 	margin: 0 auto;
-	background-color:#E3CDA4;
 }
 .grid-1 { width: 80px; }
 .grid-2 { width: 160px; }
@@ -81,7 +80,6 @@ img {
 .grid-7 { width: 280px; }
 .grid-8 { width: 320px; }
 *******************/
-
 *[class].container {
 	width: 320px!important;
 	max-width: 320px!important;
@@ -89,9 +87,9 @@ img {
 	clear:both!important;
 }
 *[class].grid-1 { width: 80px!important; }
-*[class].grid-2,
+*[class].grid-2 { width: 160px!important; }
+*[class].grid-3 { width: 240px!important; }
 *[class].grid-4 { width: 160px!important; }
-*[class].grid-3,
 *[class].grid-5,
 *[class].grid-6,
 *[class].grid-7,
@@ -110,17 +108,34 @@ img {
 	float: left!important;
 	display:inline-block!important;
 }
-*[class].grid-1 img,
-*[class].grid-2 img,
-*[class].grid-4 img,
+*[class].grid-1 img {
+	width: auto!important;
+	height: auto!important;
+	max-width: 80px!important;
+}
+*[class].grid-2 img {
+	width: auto!important;
+	height: auto!important;
+	max-width: 160px!important;
+}
+*[class].grid-3 img {
+	width: auto!important;
+	height: auto!important;
+	max-width: 240px!important;
+}
+*[class].grid-4 img {
+	width: auto!important;
+	height: auto!important;
+	max-width: 160px!important;
+}
 *[class].grid-5 img,
 *[class].grid-6 img,
 *[class].grid-7 img,
 *[class].grid-8 img {
 	width: auto!important;
+	height: auto!important;
 	max-width:320px!important;
 }
-*[class].grid-3 img { margin: 0 auto!important; }
 *[class].block {
 	width: 320px!important;
 	display: block!important;
@@ -145,18 +160,18 @@ img {
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-8 hidden"><img src="http://placehold.it/640x10/E3CDA4/E3CDA4/" alt="" /></td>
+        <td class="grid-8"><img src="http://placehold.it/640x10/FFFFFF/FFFFFF/" alt="" /></td>
     </tr>
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-4"><img src="http://placehold.it/320x100/7E827A/FFFFFF" alt="" /></td>
-        <td class="grid-4"><img src="http://placehold.it/320x100/8E938A/FFFFFF" alt="" /></td>
+        <td class="grid-4 block"><img src="http://placehold.it/320x100/7E827A/FFFFFF" alt="" /></td>
+        <td class="grid-4 block"><img src="http://placehold.it/320x100/8E938A/FFFFFF" alt="" /></td>
     </tr>
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-8 hidden"><img src="http://placehold.it/640x10/E3CDA4/E3CDA4/" alt="" /></td>
+        <td class="grid-8"><img src="http://placehold.it/640x10/FFFFFF/FFFFFF/" alt="" /></td>
     </tr>
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
@@ -169,18 +184,18 @@ img {
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-8 hidden"><img src="http://placehold.it/640x10/E3CDA4/E3CDA4/" alt="" /></td>
+        <td class="grid-8"><img src="http://placehold.it/640x10/FFFFFF/FFFFFF/" alt="" /></td>
     </tr>
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
         <td class="grid-5"><img src="http://placehold.it/400x50/8E938A/FFFFFF" alt="" /></td>
-        <td class="grid-3"><img src="http://placehold.it/240x50/7E827A/FFFFFF" alt="" /></td>
+        <td class="grid-3 block"><img src="http://placehold.it/240x50/7E827A/FFFFFF" alt="" /></td>
     </tr>
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-8 hidden"><img src="http://placehold.it/640x10/E3CDA4/E3CDA4/" alt="" /></td>
+        <td class="grid-8"><img src="http://placehold.it/640x10/FFFFFF/FFFFFF/" alt="" /></td>
     </tr>
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
@@ -197,21 +212,7 @@ img {
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-8 hidden"><img src="http://placehold.it/640x10/E3CDA4/E3CDA4/" alt="" /></td>
-    </tr>
-</table>
-<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
-    <tr>
-        <td class="grid-4 block"><img src="http://placehold.it/320x50/c77966/FFFFFF" alt="" /></td>
-        <td class="grid-1"><img src="http://placehold.it/80x50/c88977/FFFFFF" alt="" /></td>
-        <td class="grid-1"><img src="http://placehold.it/80x50/c77966/FFFFFF" alt="" /></td>
-        <td class="grid-1"><img src="http://placehold.it/80x50/c88977/FFFFFF" alt="" /></td>
-        <td class="grid-1"><img src="http://placehold.it/80x50/c77966/FFFFFF" alt="" /></td>
-    </tr>
-</table>
-<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
-    <tr>
-        <td class="grid-8 hidden"><img src="http://placehold.it/640x10/E3CDA4/E3CDA4/" alt="" /></td>
+        <td class="grid-8"><img src="http://placehold.it/640x10/FFFFFF/FFFFFF/" alt="" /></td>
     </tr>
 </table>
 <table border="0"  align="center" cellpadding="0" cellspacing="0" class="container">
@@ -224,37 +225,21 @@ img {
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-8 hidden"><img src="http://placehold.it/640x10/E3CDA4/E3CDA4/" alt="" /></td>
+        <td class="grid-8"><img src="http://placehold.it/640x10/FFFFFF/FFFFFF/" alt="" /></td>
     </tr>
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-1 block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Women</td>
-        <td class="grid-1 block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Men</td>
-        <td class="grid-1 block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Kids</td>
-        <td class="grid-1 block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Designer</td>
-        <td class="grid-1 block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Gifts</td>
-        <td class="grid-1 block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Bridal</td>
-        <td class="grid-1 block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Sale</td>
-        <td class="grid-1 block" style="text-align: center;font: 16px Arial, Helvetica, sans-serif;color:#333333;">Beauty</td>
+        <td class="grid-4 block"><img src="http://placehold.it/320x50/c77966/FFFFFF" alt="" /></td>
+        <td class="grid-1 block" style="background-color:#c88977"><img src="http://placehold.it/80x50/c88977/FFFFFF" alt="" /></td>
+        <td class="grid-1 block" style="background-color:#c77966"><img src="http://placehold.it/80x50/c77966/FFFFFF" alt="" /></td>
+        <td class="grid-1 block" style="background-color:#c88977"><img src="http://placehold.it/80x50/c88977/FFFFFF" alt="" /></td>
+        <td class="grid-1 block" style="background-color:#c77966"><img src="http://placehold.it/80x50/c77966/FFFFFF" alt="" /></td>
     </tr>
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-8 hidden"><img src="http://placehold.it/640x10/E3CDA4/E3CDA4/" alt="" /></td>
-    </tr>
-</table>
-<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
-    <tr>
-        <td class="grid-4" style="font: 16px Arial, Helvetica, sans-serif; color:#333;"><span style="font-weight: bold">HEADING</span><br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam vulputate scelerisque. 603-666-8972</td>
-        <td class="grid-4" style="font: 16px Arial, Helvetica, sans-serif; color:#333;"><span style="font-weight: bold">HEADING</span><br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam vulputate scelerisque. something@nowhere.com</td>
-    </tr>
-</table>
-<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
-    <tr>
-        <td class="grid-8"><img src="http://placehold.it/640x10/E3CDA4/E3CDA4/" alt="" /></td>
+        <td class="grid-8"><img src="http://placehold.it/640x10/FFFFFF/FFFFFF/" alt="" /></td>
     </tr>
 </table>
 </body>
