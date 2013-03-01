@@ -82,7 +82,11 @@ img {
 .grid-8 { width: 320px; }
 *******************/
 
-*[class].container { width: 320px!important; }
+*[class].container {
+	width: 320px!important;
+	max-width: 320px!important;
+	display:block!important;
+}
 *[class].grid-1 { width: 80px!important; }
 *[class].grid-2,
 *[class].grid-4 { width: 160px!important; }
@@ -90,7 +94,10 @@ img {
 *[class].grid-5,
 *[class].grid-6,
 *[class].grid-7,
-*[class].grid-8 { width: 320px!important; }
+*[class].grid-8 {
+	width: 320px!important;
+	max-width: 320px!important;
+}
 *[class].grid-1,
 *[class].grid-2,
 *[class].grid-3,
@@ -98,14 +105,20 @@ img {
 *[class].grid-5,
 *[class].grid-6,
 *[class].grid-7,
-*[class].grid-8 { float: left!important; }
+*[class].grid-8 {
+	float: left!important;
+	display:inline-block!important;
+}
 *[class].grid-1 img,
 *[class].grid-2 img,
 *[class].grid-4 img,
 *[class].grid-5 img,
 *[class].grid-6 img,
 *[class].grid-7 img,
-*[class].grid-8 img { width: 100%!important; }
+*[class].grid-8 img {
+	width: auto!important;
+	max-width:320px!important;
+}
 *[class].grid-3 img { margin: 0 auto!important; }
 *[class].block {
 	width: 320px!important;
@@ -113,6 +126,7 @@ img {
 }
 *[class].block img {
 	width: auto!important;
+	max-width:320px!important;
 	margin: 0 auto!important;
 }
 *[class].hidden { display: none!important; }
