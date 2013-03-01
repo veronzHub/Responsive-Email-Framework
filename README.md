@@ -9,10 +9,10 @@ Code the email using tables and apply the desired grid class to the "td" tags th
 
 	<table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
         <tr>
-            <td class="grid-4">content content content</td>
-            <td class="grid-4">content content content</td>
-            <td class="grid-4">content content content</td>
-            <td class="grid-4">content content content</td>
+            <td class="grid-2">content content content</td>
+            <td class="grid-2">content content content</td>
+            <td class="grid-2">content content content</td>
+            <td class="grid-2">content content content</td>
         </tr>
 	</table>
 
