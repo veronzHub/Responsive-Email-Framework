@@ -39,7 +39,11 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
         mso-table-lspace: 0pt;
         mso-table-rspace: 0pt;
         padding: 0;
+        font-size: 1px;  /* Outlook 2013 fix for spacers  */
+        line-height: 1px; /* Outlook 2013 fix for spacers  */
     }
+    span,
+    a { line-height: normal; /* all text needs to be inside span tags or anchor tags */ }
     .yshortcuts,
     .yshortcuts a,
     .yshortcuts a:link,
