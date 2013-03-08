@@ -55,10 +55,6 @@ span { line-height: normal; /* all text needs to be inside span, font, or anchor
 .grid-7 { width: 560px; }
 .grid-8 { width: 640px; }
 *******************/
-img {
-	border: 0 none;
-	display: block;
-}
 .container {
 	width: 640px;
 	margin: 0 auto;
@@ -71,7 +67,14 @@ img {
 .grid-6 { width: 480px; }
 .grid-7 { width: 560px; }
 .grid-8 { width: 640px; }
-
+img {
+	border: 0 none;
+	display: block;
+}
+.spacer img {
+	min-width: 15px!important;
+	min-height: 30px!important;
+}
 /* END INLINE STYLING */
 @media only screen and (max-width: 480px) {
 /* START OF MOBILE GRID */ 
@@ -113,34 +116,25 @@ img {
 	float: left!important;
 	display:inline-block!important;
 }
-*[class].grid-1 img {
-	width: auto!important;
-	height: auto!important;
-	max-width: 80px!important;
-}
-*[class].grid-2 img {
-	width: auto!important;
-	height: auto!important;
-	max-width: 160px!important;
-}
-*[class].grid-3 img {
-	width: auto!important;
-	height: auto!important;
-	max-width: 240px!important;
-}
-*[class].grid-4 img {
-	width: auto!important;
-	height: auto!important;
-	max-width: 160px!important;
-}
+*[class].grid-1 img,
+*[class].grid-2 img,
+*[class].grid-3 img,
+*[class].grid-4 img,
 *[class].grid-5 img,
 *[class].grid-6 img,
 *[class].grid-7 img,
 *[class].grid-8 img {
 	width: auto!important;
 	height: auto!important;
-	max-width:320px!important;
 }
+*[class].grid-1 img { max-width: 80px!important; }
+*[class].grid-2 img { max-width: 160px!important; }
+*[class].grid-3 img { max-width: 240px!important; }
+*[class].grid-4 img { max-width: 160px!important; }
+*[class].grid-5 img,
+*[class].grid-6 img,
+*[class].grid-7 img,
+*[class].grid-8 img { max-width:320px!important; }
 *[class].block {
 	width: 320px!important;
 	display: block!important;
@@ -152,6 +146,10 @@ img {
 	margin: 0 auto!important;
 }
 *[class].block table { width: 320px!important; }
+*[class].spacer img {
+	min-width: 15px!important;
+	min-height: 15px!important;
+}
 *[class].hidden { display: none!important; }
 }
 /* END OF MOBILE GRID */
@@ -245,7 +243,7 @@ img {
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-8"><img src="http://placehold.it/640x10/FFFFFF/FFFFFF/" alt="" /></td>
+        <td class="grid-8 spacer"><img src="http://placehold.it/640x10/FFFFFF/FFFFFF/" alt="" /></td>
     </tr>
 </table>
 </body>
