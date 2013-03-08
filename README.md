@@ -44,7 +44,7 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
     }
     a,
     font,
-    span { line-height: normal; /* all text needs to be inside span tags or anchor tags */ }
+    span { line-height: normal; /* all text needs to be inside span, font, or anchor tags */ }
     .yshortcuts,
     .yshortcuts a,
     .yshortcuts a:link,
