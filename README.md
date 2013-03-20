@@ -58,6 +58,7 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
     }
     .ReadMsgBody { width: 100%; }
     .ExternalClass { width: 100%; }
+    .ExternalClass * {lne-height: 100%;} /* Outlook.com line-height fix */
     /* END OF GLOBAL RESETS */
 
 Run the remaining code through this [CSS Inline Tool](http://beaker.mailchimp.com/inline-css). After the CSS is made inline, add the GLOBAL CSS styling back to the head, and remove the INLINE STYLING CSS(this section is commented in the CSS).
