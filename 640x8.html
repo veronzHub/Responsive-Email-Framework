@@ -7,6 +7,7 @@
 /* START OF GLOBAL RESETS */ 
 body {
 	width:100% !important;
+	min-width:100%!important;
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust:100%;
 	margin:0;
@@ -145,7 +146,6 @@ img {
 	margin: 0 auto;	
 }
 *[class].block table,
-*[class].grid-4 table,
 *[class].grid-5 table,
 *[class].grid-6 table,
 *[class].grid-7 table,
@@ -159,11 +159,31 @@ img {
 *[class].grid-6 table img,
 *[class].grid-7 table img,
 *[class].grid-8 table img { max-width: 320px!important; }
-*[class].hidden { display: none!important; }
-*[class].spacer img {
+*[class].spacer-5 img {
+	min-width: 5px!important;
+	min-height: 5px!important;
+}
+*[class].spacer-10 img {
+	min-width: 10px!important;
+	min-height: 10px!important;
+}
+*[class].spacer-15 img {
 	min-width: 15px!important;
 	min-height: 15px!important;
 }
+*[class].spacer-20 img {
+	min-width: 20px!important;
+	min-height: 20px!important;
+}
+*[class].spacer-25 img {
+	min-width: 25px!important;
+	min-height: 25px!important;
+}
+*[class].spacer-30 img {
+	min-width: 30px!important;
+	min-height: 30px!important;
+}
+*[class].hidden { display: none!important; }
 }
 /* END OF MOBILE GRID */
 </style>
