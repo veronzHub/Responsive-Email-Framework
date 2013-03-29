@@ -23,6 +23,7 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
     /* START OF GLOBAL RESETS */ 
     body {
         width:100% !important;
+        min-width:100%!important;
         -webkit-text-size-adjust:100%;
         -ms-text-size-adjust:100%;
         margin:0;
@@ -42,9 +43,21 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
         font-size: 1px;  /* Outlook 2013 fix for spacers  */
         line-height: 1px; /* Outlook 2013 fix for spacers  */
     }
+    /* All text needs to be one of the following tags */
     a,
     font,
-    span { line-height: normal; /* all text needs to be inside span, font, or anchor tags */ }
+    span,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        font-size: 12px; /* creates default font-size, this can be overridden using inline css */
+        line-height:normal; 
+    }
+    img { font-size: 12px; /* creates default font-size for alt text */ }
     .yshortcuts,
     .yshortcuts a,
     .yshortcuts a:link,
@@ -58,7 +71,7 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
     }
     .ReadMsgBody { width: 100%; }
     .ExternalClass { width: 100%; }
-    * {line-height: 100%;} /* Outlook.com line-height fix */
+    * { line-height: 100%; } /* Outlook.com line-height fix */
     /* END OF GLOBAL RESETS */
 
 Run the remaining code through this [CSS Inline Tool](http://beaker.mailchimp.com/inline-css). After the CSS is made inline, add the GLOBAL CSS styling back to the head, and remove the INLINE STYLING CSS(this section is commented in the CSS).
