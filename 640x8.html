@@ -24,8 +24,6 @@ table td {
 	mso-table-lspace: 0pt;
 	mso-table-rspace: 0pt;
 	padding: 0;
-	font-size: 1px;  /* Outlook 2013 fix for spacers  */
-	line-height: 1px; /* Outlook 2013 fix for spacers  */
 }
 a,
 font,
@@ -36,8 +34,8 @@ h3,
 h4,
 h5,
 h6,
-p { line-height:normal; /* all text needs to be inside span, font, or anchor tags */ }
-img { font-size: 12px; }
+p { line-height:100%; /* all text needs to be inside one of these tags */ }
+* { line-height: 100%; } /* Outlook.com line-height fix */
 .yshortcuts,
 .yshortcuts a,
 .yshortcuts a:link,
@@ -51,7 +49,13 @@ img { font-size: 12px; }
 }
 .ReadMsgBody { width: 100%; }
 .ExternalClass { width: 100%; }
-* { line-height: 100%; } /* Outlook.com line-height fix */
+.border-1,
+.border-2,
+.spacer-5,
+.spacer-10 {
+	font-size: 1px;  /* Outlook 2013 fix for spacers  */
+	line-height: 1px; /* Outlook 2013 fix for spacers  */
+}
 /* END OF GLOBAL RESETS */
 
 /* START OF INLINE STYLING */ 
@@ -166,6 +170,14 @@ img {
 *[class].grid-6 table img,
 *[class].grid-7 table img,
 *[class].grid-8 table img { max-width: 320px!important; }
+*[class].border-1 img {
+	min-width: 1px!important;
+	min-height: 1px!important;
+}
+*[class].border-2 img {
+	min-width: 2px!important;
+	min-height: 2px!important;
+}
 *[class].spacer-5 img {
 	min-width: 5px!important;
 	min-height: 5px!important;
@@ -274,7 +286,9 @@ img {
 </table>
 <table border="0" align="center" cellpadding="0" cellspacing="0" class="container">
     <tr>
-        <td class="grid-4 block"><img src="http://placehold.it/320x50/c77966/FFFFFF" alt="" /></td>
+        <td class="grid-4 block"><p>
+                <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sh
+            </p></td>
         <td class="grid-1 block" style="background-color:#c88977"><img src="http://placehold.it/80x50/c88977/FFFFFF" alt="" /></td>
         <td class="grid-1 block" style="background-color:#c77966"><img src="http://placehold.it/80x50/c77966/FFFFFF" alt="" /></td>
         <td class="grid-1 block" style="background-color:#c88977"><img src="http://placehold.it/80x50/c88977/FFFFFF" alt="" /></td>
