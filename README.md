@@ -20,7 +20,7 @@ Code the email using tables and apply the desired grid class to the "td" tags th
 
 After the email is coded, temporarily remove the GLOBAL CSS styling (this section is commented in the CSS). 
 
-    /* START OF GLOBAL RESETS */ 
+      /* START OF GLOBAL RESETS */ 
     body {
         width:100% !important;
         min-width:100%!important;
@@ -68,7 +68,11 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
     .border-1,
     .border-2,
     .spacer-5,
-    .spacer-10 {
+    .spacer-10,
+    .spacer-15,
+    .spacer-20,
+    .spacer-25,
+    .spacer-30 {
         font-size: 1px;  /* Outlook 2013 fix for spacers  */
         line-height: 1px; /* Outlook 2013 fix for spacers  */
     }
