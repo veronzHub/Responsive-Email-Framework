@@ -20,7 +20,7 @@ Code the email using tables and apply the desired grid class to the "td" tags th
 
 After the email is coded, temporarily remove the GLOBAL CSS styling (this section is commented in the CSS). 
 
-      /* START OF GLOBAL RESETS */ 
+    /* START OF GLOBAL RESETS */ 
     body {
         width:100% !important;
         min-width:100%!important;
