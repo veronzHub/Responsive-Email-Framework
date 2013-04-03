@@ -25,6 +25,7 @@ After the email is coded, temporarily remove the GLOBAL CSS styling (this sectio
         width:100% !important;
         min-width:100%!important;
         -webkit-text-size-adjust:100%;
+        -webkit-font-smoothing: antialiased;
         -ms-text-size-adjust:100%;
         margin:0;
         padding:0;
